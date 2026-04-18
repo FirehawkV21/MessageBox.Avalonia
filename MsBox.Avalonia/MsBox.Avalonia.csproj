@@ -22,6 +22,9 @@
         <PackageIcon>icon.jpg</PackageIcon>
     </PropertyGroup>
     <ItemGroup>
+        <None Include="icon.jpg" Pack="true" PackagePath="" />
+    </ItemGroup>
+    <ItemGroup>
         <AvaloniaResource Include="**\*.xaml">
             <SubType>Designer</SubType>
         </AvaloniaResource>
